@@ -1,0 +1,26 @@
+{
+  "name": "awesome-test-cli2",
+  "version": "1.0.0",
+  "description": "creatd by masters",
+  "main": "index.js",
+  "bin": {
+    "awesome-test": "bin/main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "scaffold",
+    "efficient",
+    "react"
+  ],
+  "author": "walker",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.9"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2"
+  }
+}
