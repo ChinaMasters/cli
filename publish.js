@@ -3,19 +3,10 @@ const path = require('path');
 const process = require('process');
 // 导入执行控制台命令的方法
 const exec = require('child_process').execSync;
-const zzz = require('./zzz/z')
 // 保存根路径
 const rootPath = __dirname;
 const dirnames = fs.readdirSync(__dirname);
 const consoleLogPath = path.join(rootPath, 'log');
-
-const modulePath = path.join(__dirname, 'node_modules');
-// if (fs.existsSync(modulePath)) {
-// 	const dirs = fs.readdirSync(modulePath)
-// 	console.log('dirs', dirs)
-// }
-
-return;
 
 dirnames.forEach(fName => {
 	const dPath = path.join(__dirname, fName);
